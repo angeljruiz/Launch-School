@@ -1,0 +1,8 @@
+<h2><%= "#{@user[:name]}'s Profile" %></h2>
+<p><%= "Email: #{@user[:email]}"%></p>
+<p> <%= "Interests: #{@user[:interests].join(', ')}" %></p>
+<% @otherUsers.each do |user| %>
+  <a href=<%= "/user/#{user[0]}" %>><%= user[0].capitalize %></a>
+<% end %>
+<br>
+<h2><%= "There are #{@users.keys.size} users and #{@total_interests} total interests."%></h2>

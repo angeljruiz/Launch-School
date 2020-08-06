@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  color: inherit;
+}
+
+.founder {
+  color: rgb(12, 155, 181);
+  font-size: 24px;
+  margin-top: 25px;
+}
+
+.active {
+  color: rgb(83, 196, 255);
+  font-weight: 600;
+}
+
+.dark_blue {
+  color: rgb(68, 78, 171);
+  font-weight: 900;
+  margin-top: 25px;
+}
+
+.mb75 {
+  margin-bottom: 65px;
+}
+
+.pb100 {
+  padding-bottom: 100px;
+}
+
+.pb200 {
+  padding-bottom: 200px;
+}
+
+.pb75 {
+  padding-bottom: 75px;
+}
+
+.pt75 {
+  padding-top: 75px;
+}
+
+.pt120 {
+  padding-top: 120px;
+}
+
+.team li {
+  color: rgb(68, 78, 171);
+  width: 140px;
+  margin: 0 30px;
+}
+
+body {
+  font: normal 20px Avenir, Helvetica, Arial, sans-serif;
+  background: url('images/bg_body.gif') repeat;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+header {
+  text-align: center;
+  margin-top: 130px;
+}
+
+nav {
+  margin-top: 125px;
+  text-align: center;
+  color: rgb(202, 202,202);
+  font-size: 26px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  display: inline-block;
+}
+
+nav ul li {
+  margin: 0 37.5px;
+}
+
+main {
+  margin-top: 35px;
+  background-color: white;
+  height: 100%;
+  text-align: center;
+  padding: 0 190px 85px;
+}
+
+article img {
+  display: inline-block;
+  width: 100%;
+  margin-top: 35px;
+}
+
+main article h1::before,
+main article h1::after {
+  content: "\2022";
+  font-size: 1.6rem;
+  vertical-align: 3px;
+}
+
+main article h1::before {
+  margin-right: 25px;
+}
+
+main article h1::after {
+  margin-left: 25px;
+}
+
+main article p {
+  margin-top: 25px;
+  font-weight: 500;
+}
+
+footer {
+  padding: 90px 90px 75px;
+  background-color: rgb(231, 231, 231);
+  text-align: center;
+}
+
+footer p {
+  margin: 0 360px 0;
+  color: rgb(176, 176, 176);
+}
+
+footer ul {
+  margin: 40px 0 0;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 0 63px;
+}

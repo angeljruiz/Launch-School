@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Practice Problems</title>
+  <style>
+    fieldset {
+      border: none;
+    }
+
+    input[type="submit"] {
+      margin-left: 12px;
+    }
+
+    .names label {
+      display: inline-block;
+    }
+
+    .names label input {
+      display: block;
+    }
+
+    .names label + label {
+      margin-left: 40px;
+    }
+
+    .names label + label input {
+      width: 175px;
+    }
+
+    .email input {
+      width: 175px;
+    }
+
+    dd {
+      margin-left: 0;
+    }
+  </style>
+</head>
+<body>
+  <form class="" action="#" method="post">
+    <dl>
+      <dt>First Name</dt>
+      <dd><input type="text" name="first" placeholder="John" required></dd>
+      <dt>Last Name</dt>
+      <dd><input type="text" name="last" placeholder="Appleseed" required></dd>
+      <dt>Email</dt>
+      <dd><input type="email" name="email" placeholder="john@appleseed.com" required autocomplete="off"></dd>
+      <dt>Phone Number</dt>
+      <dd><input type="tel" name="telephone" placeholder="555-555-5555" required></dd>
+      <dt>Phone Type</dt>
+      <dd>
+        <select name="phone">
+          <option value="home" selected>Home</option>
+          <option value="business">Business</option>
+          <option value="mobile">Mobile</option>
+        </select>
+      </dd>
+      <dt>Message</dt>
+      <dd>
+        <textarea name="message" rows="6" cols="80" placeholder="Type your message here"></textarea>
+      </dd>
+    </dl>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>

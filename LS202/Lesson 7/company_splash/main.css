@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+.founder {
+  color: rgb(12, 155, 181);
+  font-size: 24px;
+  margin-top: 25px;
+}
+
+.fb-icon {
+  margin: 0 125px;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background: url('bg_body.gif') repeat;
+  font-size: 20px;
+}
+
+img {
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+header {
+  text-align: center;
+  margin-top: 10rem;
+}
+
+main {
+  margin: 86px 220px 140px;
+  background-color: white;
+  height: 100%;
+  text-align: center;
+}
+
+article {
+  padding: 0 72px;
+  padding-top: 100px;
+}
+
+article ~ article {
+  margin-top: 65px;
+}
+
+main article h1::before,
+main article h1::after {
+  content: "\2022";
+  font-size: 1.6rem;
+  vertical-align: 5px;
+}
+
+main article h1::before {
+  margin-right: 25px;
+}
+
+main article h1::after {
+  margin-left: 25px;
+}
+
+main article p {
+  margin-top: 25px;
+}
+
+footer {
+  margin-top: 60px;
+  padding: 30px 0;
+  background-color: rgb(231, 231, 231);
+}

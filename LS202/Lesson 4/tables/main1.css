@@ -1,0 +1,12 @@
+table {
+  border-collapse: collapse;
+  background-color: cyan;
+}
+
+td {
+  background-color: orange;
+}
+
+tr.yellow td {
+  background-color: yellow;
+}

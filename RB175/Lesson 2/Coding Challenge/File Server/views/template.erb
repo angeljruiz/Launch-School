@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>File Server</title>
+  </head>
+  <body>
+    <h3> Files </h3>
+    <a href=<%= "/?sort=#{@sort == 'desc' ? 'asc' : 'desc'}"%>><%= @sort == 'desc' ? 'Sort ascending' : 'Sort descending'%></a>
+    <br><br>
+    <% @files.each do |file| %>
+      <a href=<%= "/#{file}"%>><%= file %></a>
+      <br>
+    <% end %>
+  </body>
+</html>

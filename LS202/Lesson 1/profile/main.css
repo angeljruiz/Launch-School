@@ -1,0 +1,13 @@
+body {
+  background-color: MidnightBlue;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: BurlyWood;
+}
+
+li {
+  margin-bottom: 10px;
+}

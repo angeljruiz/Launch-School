@@ -1,0 +1,24 @@
+body {
+  margin-left: 25px;
+}
+
+ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.afternoon {
+  color: blue;
+}
+
+.afternoon + p {
+  font-style: italic;
+}
+
+.evening {
+  color: purple;
+}
+
+.morning + p {
+  font-weight: bold;
+}

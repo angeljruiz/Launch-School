@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Fluid Layout Gallery</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="gallery.css" />
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+    </script>
+    <script src="./gallary.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>My Photo Gallery</h1>
+      <figure class="mainPics">
+        <img id="mainPic1" src="https://picsum.photos/id/1/1200/900" alt="" />
+        <img id="mainPic2" src="https://picsum.photos/id/2/1200/900" alt="" />
+        <img id="mainPic3" src="https://picsum.photos/id/3/1200/900" alt="" />
+        <img id="mainPic4" src="https://picsum.photos/id/4/1200/900" alt="" />
+        <figcaption>Example photo</figcaption>
+      </figure>
+      <ul class="picThumbs">
+        <li class="active" id="thumbPic1"><img src="https://picsum.photos/id/1/1200/900" alt="" title="Photo 1" /></li>
+        <li id="thumbPic2"><img src="https://picsum.photos/id/2/1200/900" alt="" title="Photo 2" /></li>
+        <li id="thumbPic3"><img src="https://picsum.photos/id/3/1200/900" alt="" title="Photo 3" /></li>
+        <li id="thumbPic4"><img src="https://picsum.photos/id/4/1200/900" alt="" title="Photo 4" /></li>
+      </ul>
+    </main>
+  </body>
+</html>
