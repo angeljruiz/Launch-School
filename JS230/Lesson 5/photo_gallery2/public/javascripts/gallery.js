@@ -7,7 +7,7 @@ $(() => {
 
   $.get("/photos", (p) => {
     photos = p;
-    $("#slides").append(photoTemplate({ photos: photos }));
+    $("#slides").append({photoTemplate({ photos: photos })});
 
     preparePhotoData(photos[0]);
   });
